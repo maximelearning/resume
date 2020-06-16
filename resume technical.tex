@@ -1,0 +1,141 @@
+\documentclass[margin,line]{res}
+
+% \usepackage[sfdefault]{roboto}
+% \usepackage[T1]{fontenc}
+%
+\usepackage{hyperref}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Max Sutters \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{0.5in}p{2.5in}p{3in}}
+{\it LinkedIn:} & https://www.linkedin.com/in/maxsutters      
+							& {\it E-mail:}  msutters@cs.washington.edu \\   
+% {\it GitHub:} & https://github.com/maximelearning
+							& {\it Voice/text:}  (206) 321-0208         \\   
+\end{tabular}
+
+%\section{\sc Interests}
+% Computer science education, inclusive hardware and software design, game development
+% \vspace{-.3cm}
+
+\section{\sc Education}
+{\bf University of Washington}, Seattle, Washington USA\\
+{\em Paul G. Allen School of Computer Science \& Engineering} 
+%\vspace*{-.3cm}
+\vspace*{.1cm} 
+\begin{list1}
+\item[] B.S. Candidate, Computer Engineering (expected
+  graduation date: June 2021)
+\end{list1}
+
+{\bf Seattle Central College}, Seattle, Washington USA %\hfill GPA: {\bf 3.93}
+\\
+
+\vspace*{-.3cm}
+\begin{list1}
+\item[] A.S., Computer Science \& Engineering, June, 2019
+\end{list1}
+
+\vspace{-.2cm}
+\section{\sc Technical Skills} 
+	{\em Languages}:  
+	Java, C/C++, Python, Unix/Bash shell scripting, HDL, assembly
+	\\
+	{\em Tools}:  
+	GNU Debugger (GDB), Vim, Git/GitLab, IDEA, KiCad, \LaTeX, Mathematica 
+	\\
+	{\em Algorithm projects}: 
+	Spam filter using machine learning (Naive Bayes), KD-tree
+	nearest neighbor finder, content-aware image resizing with A* graph search
+	\\
+	{\em Operating Systems}:  
+	Unix/Linux (CentOS, Ubuntu, WSL), Windows
+	\\
+	{\em Hardware}:  PCB design, 3D printing, flashing of Arduino/STM32 chips, SMD soldering
+	\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{\sc Honors and Awards} % category below
+%\vspace*{-2.5mm} % award below (repeat for more awards)
+
+\vspace{-.3cm}
+\section{\sc Experience}
+
+% % \vspace{-.3cm}
+% {\em Peer Advisor} \hfill {\bf April, 2020 - June 2021}\\
+% Advising on academic questions within the CSE department at UW.
+
+{\bf Seattle Central College}, Seattle, Washington USA
+
+\vspace{-.3cm}
+{\em Teaching Assistant} \hfill {\bf September, 2018  - March, 2019}\\
+Duties included office hours, technical support, and management of cloud-based messaging forum. 
+  Driver of Slack use in computer science classes at Seattle Central College.
+\begin{list2}
+\item CSC 110 Intro to Computer Programming with Clarke Wellman
+\item CSC 142 Computer Programming I with François Lepeintre
+\end{list2}     
+
+{\bf SACNAS Chapter, Seattle Central College}, Seattle, Washington USA
+
+\vspace{-.3cm}
+{\em Chapter Secretary} \hfill {\bf May, 2019 - August, 2019}\\
+Leading member of Society for the Advancement of Chicanos/Hispanics and Native Americans in Science.
+  Organized meetings and researched chapter project proposals, synthesized team documentation, and 
+  corresponded with chapter leadership and members. Volunteered for events including UndocuSTEM Conference.
+
+\section{\sc Programming Projects}
+{\bf malloc}, CSE 351
+
+\vspace{-.3cm}
+Implemented memory allocation in C.
+
+{\bf HuskyMaps}, CSE 332
+
+\vspace{-.3cm}
+Used Java to implement a local navigation web application. Programmed a rasterization system for rendering tiles when zooming in and out of the HuskyMaps interface, and an A* graph-based text search for locations on the map. Hosted locally and on Heroku.
+
+{\bf Tetris}, CSC 143
+
+\vspace{-.3cm}
+Practiced advanced object-oriented programming (OOP) by implementing Tetris in Java. Reinforced understanding of composition, inheritance, and model-view-controller (MVC) architecture. Applied unit testing, version control through Git, and pair programming.
+
+{\bf Choose-Your-Own-Adventure Game Engine}, CSC 143
+
+\vspace{-.3cm}
+{\em (Credit to Stanford, Will Crowther)} Used Java to program a text-based RPG engine. Implemented a text file scanner to assign data to generic structures in the game. Developed object-oriented logic to allow players to travel between rooms, interact with objects, and solve puzzles.
+
+\end{resume}
+\end{document}
+
+
+
+
