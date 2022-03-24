@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.24)  12 MAR 2022 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.24)  23 MAR 2022 00:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**maxime_sutters_slack_resume.tex
-(./maxime_sutters_slack_resume.tex
+**maxime_sutters_speak_resume.tex
+(./maxime_sutters_speak_resume.tex
 LaTeX2e <2019-10-01> patch level 3
 (./res.cls
 Document Style `res' <26 Sep 89>.
@@ -171,23 +171,43 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip44
 )
-No file maxime_sutters_slack_resume.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
+)
+No file maxime_sutters_speak_resume.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 50.
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -199,69 +219,93 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count100
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 59.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 59.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
 
-Overfull \hbox (5.17027pt too wide) in paragraph at lines 60--60
+(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen112
+\scratchbox=\box28
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen113
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks21
+) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<Speak Logo 1500.png, id=4, 5420.25pt x 150.5625pt>
+File: Speak Logo 1500.png Graphic file (type png)
+<use Speak Logo 1500.png>
+Package pdftex.def Info: Speak Logo 1500.png  used on input line 58.
+(pdftex.def)             Requested size: 433.62886pt x 12.04524pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 65.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 65.
+
+Overfull \hbox (5.17027pt too wide) in paragraph at lines 66--66
 []\OT1/cmr/m/it/10 LinkedIn: 
  []
 
 
-Overfull \hbox (0.63098pt too wide) in paragraph at lines 60--60
+Overfull \hbox (0.63098pt too wide) in paragraph at lines 66--66
 []\OT1/cmr/m/n/10 https://www.linkedin.com/in/maxsutters 
  []
 
 
-Overfull \hbox (29.99998pt too wide) in paragraph at lines 59--65
+Overfull \hbox (29.99998pt too wide) in paragraph at lines 65--71
 [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-
- []
-
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 94.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 105.
 
-Overfull \hbox (11.41681pt too wide) in paragraph at lines 96--97
+Overfull \hbox (11.41681pt too wide) in paragraph at lines 107--108
 []\OT1/cmr/m/n/10 AR gui-tar learn-ing ap-pli-ca-tion for the Magic Leap head-s
 et with float-ing chords and tabs, instrument-
  []
 
 
-Overfull \hbox (2.47339pt too wide) in paragraph at lines 106--107
-[]\OT1/cmr/m/n/10 Simulated func-tion-al-ity of hard-ware de-vices - LEDs, seve
-n-segment dis-plays, but-tons, and switches
+Overfull \hbox (4.69565pt too wide) in paragraph at lines 117--118
+[]\OT1/cmr/m/n/10 Simulated func-tion-al-ity of hard-ware de-vices (LEDs, seven
+-segment dis-plays, but-tons, and switches)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--147
+Underfull \hbox (badness 10000) in paragraph at lines 144--159
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
 [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 185.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Speak Logo 15
+00.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 203.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 203.
  ) 
 Here is how much of TeX's memory you used:
- 4407 strings out of 492162
- 67472 string characters out of 6129062
- 158992 words of memory out of 5000000
- 8741 multiletter control sequences out of 15000+600000
+ 5172 strings out of 492162
+ 78002 string characters out of 6129062
+ 168044 words of memory out of 5000000
+ 9475 multiletter control sequences out of 15000+600000
  5368 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,8n,25p,294b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,8n,25p,497b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2019/texmf-d
@@ -270,10 +314,10 @@ type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb>
-Output written on maxime_sutters_slack_resume.pdf (1 page, 109855 bytes).
+Output written on maxime_sutters_speak_resume.pdf (1 page, 119848 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

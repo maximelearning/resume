@@ -11,7 +11,7 @@
 % 3. Don't just say hosted on heroku. Did you do the steps to host it on heroku? needs to be action oriented / show what you did.
 
 % tetris
-% 1. in first line, isntead of practiced say something like implemented or something 
+% 1. in first line, instead of practiced say something like implemented or something 
 
 % education
 % 1. list most impressive classes in 'relevant coursework' 
@@ -20,6 +20,9 @@
 % \usepackage[T1]{fontenc}
 %
 \usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{ {./} }
+% \graphicspath{ {./images/} }
 
 \oddsidemargin -.5in
 \evensidemargin -.5in
@@ -51,7 +54,10 @@
 
 % \name{Maxime Alexander Sutters (speak{\textunderscore} participant) \vspace*{.1in}}
 % \name{Maxime Sutters (speak{\textunderscore} participant) \vspace*{.1in}}
-\name{Maxime Sutters \vspace*{.1in}} 
+\name{Maxime Sutters \vspace*{.1in}}
+\includegraphics[scale=0.08]{Speak Logo 1500}
+% \centering
+% \raggedright
 
 \begin{resume}
 \section{\sc Contact Information}
@@ -67,24 +73,29 @@
 % Computer science education, inclusive hardware and software design, game development
 % \vspace{-.3cm}
 
+\vspace{-.2cm}
 \section{\sc Education}
+
+{\bf Speak\textunderscore \ Program Participant}, March 2022\\
+\vspace*{-.6cm}
+
 {\bf University of Washington}, Seattle, Washington USA\\
 {\em Paul G. Allen School of Computer Science \& Engineering} 
 %\vspace*{-.3cm}
-\vspace*{.1cm} 
+\vspace*{.1cm}
 \begin{list1}
 \item[] B.S., Computer Engineering, December 2021
-\item[] Selected Courses: Networking, Systems, Data Structures and Parallelism, Compilers
+\item[] Selected Courses: Networks, Systems, Digital Design, Compilers, Data Structures and Parallelism
+% \item[] Selected Courses: Networking, Systems, Data Structures and Parallelism, Compilers
 \end{list1}
 
-{\bf Seattle Central College}, Seattle, Washington USA %\hfill GPA: {\bf 3.93}
-\\
-
+{\bf Seattle Central College}, Seattle, Washington USA \\ %\hfill GPA: {\bf 3.93}
 \vspace*{-.3cm}
 \begin{list1}
 \item[] A.S., Computer Science \& Engineering, June 2019
 \end{list1}
 
+\vspace{-.2cm}
 \section{\sc Programming Projects}
 % {\bf malloc}, CSE 351
 
@@ -103,7 +114,7 @@
 {\bf N-Car Parking Garage Simulator}
 \begin{list2}
 \item Designed and programmed finite state machine (FSM) logic in SystemVerilog for two presence sensors at the gate of a simulated parking garage and an n-bit counter to track available spots
-\item Simulated functionality of hardware devices - LEDs, seven-segment displays, buttons, and switches - in ModelSim before flashing to the Altera DE1{\textunderscore}SoC FPGA board
+\item Simulated functionality of hardware devices (LEDs, seven-segment displays, buttons, and switches) in ModelSim before flashing to the Altera DE1{\textunderscore}SoC FPGA board
 \end{list2}
 
 % {\bf HuskyMaps} %, CSC 332
@@ -129,11 +140,12 @@
 
 \vspace{-.2cm}
 \section{\sc Technical Skills} 
+
 	{\em Languages}:  
 	Java, C/C++, Python, Bash, HDL, SystemVerilog, Verilog, assembly
 	\\
 	{\em Tools}:  
-	Quartus, ModelSim, GNU Debugger (GDB), Vim, Git/GitLab, IDEA, KiCad, \LaTeX, Mathematica 
+	Quartus, ModelSim, GDB, Vim, Git/GitLab, IDEA, KiCad, \LaTeX, Mathematica 
 	\\
 	{\em Algorithm projects}: 
 	Spam filter using machine learning (Naive Bayes), KD-tree
@@ -160,8 +172,14 @@
 
 \vspace{-.3cm}
 {\em Teaching Assistant} \hfill {\bf September, 2018  - March, 2019}\\
-Held office hours, provided technical support, and managed online forum for students. \\ Drove Slack use in computer science, math, and physics classes at Seattle Central College. \\
+Held office hours, provided technical support, and managed online forum for students \\
+Drove Slack use in computer science, math, and physics classes at Seattle Central College \\
 Classes: Intro to Computer Programming and Computer Programming I (CSC 110/142)
+
+% Fancy version!
+
+% Liaised between students and professor and discussed points of friction in their learning process. Held office hours to work one-on-one with students and review challenging Python and Java programming concepts. Encouraged honest academic collaboration via Slack channels, pinned messages, and anonymous student surveys. Drove unprecedented use of these tools in computer science classes as well as increased use across STEM curricula at Seattle Central College.
+
 % \begin{list2}
 % % \item Classes: Intro to Computer Programming and Computer Programming I
 % % with Clarke Wellman
@@ -177,13 +195,9 @@ Classes: Intro to Computer Programming and Computer Programming I (CSC 110/142)
 
 \vspace{-.3cm}
 {\em Chapter Secretary} \hfill {\bf May, 2019 - August, 2019}\\
-Leading member of Society for the Advancement of Chicanos/Hispanics and Native Americans in Science.
+% Leading member of Society for the Advancement of Chicanos/Hispanics and Native Americans in Science.
   Organized meetings, researched chapter project proposals, wrote documentation, and 
   corresponded with chapter leadership and members. Facilitated UndocuSTEM Conference.
 
 \end{resume}
 \end{document}
-
-
-
-

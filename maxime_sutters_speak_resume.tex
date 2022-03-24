@@ -1,0 +1,198 @@
+\documentclass[margin,line]{res}
+
+% 1. add link to guitxr
+% 2. in first line of guitxr, explain what the project is. in subsequent lines talk about what you individually implemented.
+% 3. talk about any unit tests or developer operations management (i.e. managing the git repo for example) that you did
+% 4. talk about how it blossomoned into a full fledged research project with the Reality Lab
+
+% huskyMaps
+% 1. link to huskymaps?
+% 2. be more specific to what geographies the app mapped, what else did it do?
+% 3. Don't just say hosted on heroku. Did you do the steps to host it on heroku? needs to be action oriented / show what you did.
+
+% tetris
+% 1. in first line, isntead of practiced say something like implemented or something 
+
+% education
+% 1. list most impressive classes in 'relevant coursework' 
+
+% \usepackage[sfdefault]{roboto}
+% \usepackage[T1]{fontenc}
+%
+\usepackage{hyperref}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+% suppresses page numbers
+\thispagestyle{empty}
+
+% \name{Maxime Alexander Sutters (speak{\textunderscore} participant) \vspace*{.1in}}
+% \name{Maxime Sutters (speak{\textunderscore} participant) \vspace*{.1in}}
+\name{Maxime Sutters \vspace*{.1in}} 
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{0.5in}p{2.5in}p{3in}}
+{\it LinkedIn:} & https://www.linkedin.com/in/maxsutters & {\it E-mail:}  msutters@cs.washington.edu \\   
+{\it GitHub:} & https://github.com/maximelearning & {\it Phone:} (206) 321-0208
+% & speak{\textunderscore} candidate
+\\   
+\end{tabular}
+
+%\section{\sc Interests}
+% Computer science education, inclusive hardware and software design, game development
+% \vspace{-.3cm}
+
+\section{\sc Education}
+
+{\bf University of Washington}, Seattle, Washington USA\\
+{\em Paul G. Allen School of Computer Science \& Engineering} 
+%\vspace*{-.3cm}
+\vspace*{.1cm} 
+\begin{list1}
+\item[] B.S., Computer Engineering, December 2021
+\item[] Selected Courses: Networks, Systems, Digital Design, Compilers, Data Structures and Parallelism
+% \item[] Selected Courses: Networking, Systems, Data Structures and Parallelism, Compilers
+\end{list1}
+
+{\bf Seattle Central College}, Seattle, Washington USA %\hfill GPA: {\bf 3.93}
+\\
+
+\vspace*{-.3cm}
+\begin{list1}
+\item[] A.S., Computer Science \& Engineering, June 2019
+\end{list1}
+
+\section{\sc Programming Projects}
+% {\bf malloc}, CSE 351
+
+% \vspace{-.3cm}
+% Implemented memory allocation in C.
+
+{\bf GuitXR: \url{https://uwrealitylab.github.io/xrcapstone21sp-team4/}} %, CSE 481 V
+\begin{list2}
+\item AR guitar learning application for the Magic Leap headset with floating chords and tabs, instrument-mounted controls, and real-time pitch detection
+\item Built in Javascript and HTML via the WebXR API and A-Frame web framework
+\item Refactored ML5.js-based pitch recognition library for guitar 
+% to enable real-time feedback on played notes
+\item Presented completed VR capstone demo at the University of Washington Reality Lab
+\end{list2}
+
+{\bf N-Car Parking Garage Simulator}
+\begin{list2}
+\item Designed and programmed finite state machine (FSM) logic in SystemVerilog for two presence sensors at the gate of a simulated parking garage and an n-bit counter to track available spots
+\item Simulated functionality of hardware devices (LEDs, seven-segment displays, buttons, and switches) in ModelSim before flashing to the Altera DE1{\textunderscore}SoC FPGA board
+\end{list2}
+
+% {\bf HuskyMaps} %, CSC 332
+% \begin{list2}
+% 	\item Used Java to implement a local navigation web application
+% 	\item Programmed a rasterization system for rendering tiles when zooming in and out of the HuskyMaps interface, and an A* graph-based text search for locations on the map
+% 	\item Hosted on Heroku
+% \end{list2}
+
+{\bf Tetris} %, CSC 143 (arcade game remake?)
+\begin{list2}
+\item Programmed Tetris clone and implemented advanced object-oriented programming (OOP) code structures in Java
+\item Reinforced understanding of composition, inheritance, and model-view-controller (MVC)
+\item Applied unit testing, version control through Git, and pair programming
+\end{list2}
+
+% {\bf Choose-Your-Own-Adventure Game Engine} %, CSC 143
+% \begin{list2} % {\em (Credit to Stanford, Will Crowther)}
+% \item Used Java to program a text-based RPG engine.
+% \item Implemented a text file scanner to assign data to generic data structures in the game
+% \item Developed object-oriented logic to allow players to travel between rooms, interact with objects, and solve puzzles.
+% \end{list2}
+
+\vspace{-.2cm}
+\section{\sc Technical Skills} 
+
+	{\em Languages}:  
+	Java, C/C++, Python, Bash, HDL, SystemVerilog, Verilog, assembly
+	\\
+	{\em Tools}:  
+	Quartus, ModelSim, GDB, Vim, Git/GitLab, IDEA, KiCad, \LaTeX, Mathematica 
+	\\
+	{\em Algorithm projects}: 
+	Spam filter using machine learning (Naive Bayes), KD-tree
+	nearest neighbor finder, content-aware image resizing with A* graph search
+	\\
+	{\em Operating Systems}:  
+	Unix/Linux (CentOS, Ubuntu, WSL), Windows
+	\\
+	{\em Hardware}:  PCB design, 3D printing, flashing of Arduino/STM32 chips, SMD soldering
+	\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{\sc Honors and Awards} % category below
+%\vspace*{-2.5mm} % award below (repeat for more awards)
+
+\vspace{-.3cm}
+\section{\sc Experience}
+
+% % \vspace{-.3cm}
+% {\em Peer Advisor} \hfill {\bf April, 2020 - June 2021}\\
+% Advising on academic questions within the CSE department at UW.
+
+{\bf Seattle Central College}, Seattle, Washington USA
+
+\vspace{-.3cm}
+{\em Teaching Assistant} \hfill {\bf September, 2018  - March, 2019}\\
+Held office hours, provided technical support, and managed online forum for students \\
+Drove Slack use in computer science, math, and physics classes at Seattle Central College \\
+Classes: Intro to Computer Programming and Computer Programming I (CSC 110/142)
+
+% Fancy version!
+
+% Liaised between students and professor and discussed points of friction in their learning process. Held office hours to work one-on-one with students and review challenging Python and Java programming concepts. Encouraged honest academic collaboration via Slack channels, pinned messages, and anonymous student surveys. Drove unprecedented use of these tools in computer science classes as well as increased use across STEM curricula at Seattle Central College.
+
+% \begin{list2}
+% % \item Classes: Intro to Computer Programming and Computer Programming I
+% % with Clarke Wellman
+% % \item CSC 142 Computer Programming I with François Lepeintre
+% \end{list2}
+
+% Office hours, technical support, and management of online forum for student communications. Drove Slack use in computer science classes at Seattle Central College. Classes included CSC 110 (Intro to Computer Programming) and CSC 142 (Computer Programming I).
+
+% Duties included office hours, technical support, and management of cloud-based messaging forum. 
+%   Driver of Slack use in computer science classes at Seattle Central College.
+
+{\bf Seattle Central College SACNAS Chapter}, Seattle, Washington USA
+
+\vspace{-.3cm}
+{\em Chapter Secretary} \hfill {\bf May, 2019 - August, 2019}\\
+Leading member of Society for the Advancement of Chicanos/Hispanics and Native Americans in Science.
+  Organized meetings, researched chapter project proposals, wrote documentation, and 
+  corresponded with chapter leadership and members. Facilitated UndocuSTEM Conference.
+
+\end{resume}
+\end{document}
+
+
+
+
