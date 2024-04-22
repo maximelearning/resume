@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.19)  19 APR 2024 23:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.19)  22 APR 2024 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -236,52 +236,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 90.
 
-Overfull \hbox (11.41681pt too wide) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 86--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--114
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 117.
+
+Overfull \hbox (11.41681pt too wide) in paragraph at lines 119--120
 []\OT1/cmr/m/n/10 AR gui-tar learn-ing ap-pli-ca-tion for the Magic Leap head-s
 et with float-ing chords and tabs, instrument-
  []
 
 
-Overfull \hbox (4.69565pt too wide) in paragraph at lines 102--103
+Overfull \hbox (4.69565pt too wide) in paragraph at lines 129--130
 []\OT1/cmr/m/n/10 Simulated func-tion-al-ity of hard-ware de-vices (LEDs, seven
 -segment dis-plays, but-tons, and switches)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--151
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--170
-
  []
 
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7582 strings out of 474116
- 118248 string characters out of 5743682
- 1944187 words of memory out of 5000000
+ 7581 strings out of 474116
+ 118242 string characters out of 5743682
+ 1943187 words of memory out of 5000000
  29911 multiletter control sequences out of 15000+600000
  559797 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,476b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,232b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -290,10 +284,10 @@ usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on resume.pdf (2 pages, 119349 bytes).
+Output written on resume.pdf (1 page, 117409 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 54 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
