@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.19)  11 JUN 2024 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.19)  11 JUN 2024 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -232,12 +232,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--63
  []
 
 
-Overfull \hbox (4.28954pt too wide) in paragraph at lines 68--69
-[]\OT1/cmr/m/n/10 Updated legacy code with new GraphQL API calls and SQL querie
-s to Ama-zon Red-shift databases. 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 84--88
 
  []
@@ -272,11 +266,11 @@ L3 programming layer <2024-02-20>
 Here is how much of TeX's memory you used:
  7581 strings out of 474116
  118242 string characters out of 5743682
- 1943187 words of memory out of 5000000
+ 1944187 words of memory out of 5000000
  29911 multiletter control sequences out of 15000+600000
  559797 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,421b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,547b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -285,7 +279,7 @@ usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on resume.pdf (1 page, 116845 bytes).
+Output written on resume.pdf (1 page, 117471 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
