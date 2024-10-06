@@ -1,0 +1,74 @@
+Develop robust backend systems to support web interfaces.
+- I developed, maintained, monitored, and optimized backend systems and infrastructure with APIs supporting web interfaces for internal customers.
+Support integration efforts with Access Control and Video Management systems.
+- I managed integration with our Optics platform for taking in video frames from datacenter cameras.
+Develop infrastructure deployment and replication models for AI-enabled edge devices. \ Knowledge of distributed systems and running hardware at the edge.
+- I deployed patches for airgapped hosts on govcloud.
+Scale our backend systems 100x to support an expanding fleet of edge devices, customers, and internal human operators.
+- Backend code I worked on 
+Critically assess and address cloud infrastructure security risks. \ Design and implement secure networking infrastructure to protect our customers’ data. \ 
+- I maintained least privilege access for a new service using AWS Secret Manager and IAM roles.
+Build infrastructure configuration-as-code modules using Terraform. \ Experience with IaC such as Terraform.
+- I used AWS CDK to enable infrastructure-as-code configuration.
+Lead by example, establishing and maintaining best practices in backend development.
+- I guided teammates working on areas adjacent to tickets and projects I had led before.
+Lead design reviews and gather input from multiple teams to ensure high-quality outcomes.
+- I hosted design reviews for my features and participated in grooming meetings for scrum tasks.
+Tackle challenging interdisciplinary problems within our deep tech stack.
+- I worked alongside applied scientists on problems related to computer vision and machine learning algorithms.
+Deploy changes with immediate impacts on our product, worldwide.
+- I deployed and monitored changes with real physical impact on datacenters worldwide.
+Requirements:
+Demonstrated expertise in backend development and best coding practices for Python, Go, Rust or equivalent.
+- I have demonstrated expertise in backend development and best coding practices for Python.
+Hands-on experience with Django or a similar web framework.
+- Experience in AWS Lambda, API Gateway, and Route53 DNS.
+Experience with backend resilience, stability, and site reliability engineering (SRE) improvements. \ Understanding of standard Observability tools such as Datadog, Cloudwatch etc.
+- I monitored existing alarms for our backend systems and created new ones based on telemetry tracking the expected behavior of our new features. These I charted in Cloudwatch.
+Experience building and scaling high availability distributed systems. \ Knowledge of distributed systems and running hardware at the edge.
+- I worked on our distributed video processing system to decrease latency and troubleshoot a dropped frames issue.
+
+Hands-on experience with AWS and DevOps practices.
+- Plenty while working at AWS
+Passionate about delivering high-quality products that exceed user expectations.
+- I made it my responsibility to follow up with contract guard force and make sure what we were delivering was what they needed and more.
+Eager to work with, mentor, and learn from peers through code reviews, design documents, and pair programming.
+- One of the best parts of the job. We all perform better when we raise each other up.
+Enthusiastic about diving into different areas of technology and problem-solving.
+- If I am learning new things I am in the right place.
+Must be authorized to work in the United States.
+- US citizen.
+Bonus Skills:
+Experience leading teams or managing projects.
+- Lead a large project on my team at AWS.
+Experience with AI, including generative AI technologies.
+- No direct experience there but worked with our applied scientists when they used generative AI to create images of datacenter workers lying in various positions down the aisle and train models based on this data.
+Experience with performance improvements of databases and APIs.
+- Fixed multiple out of date SQL queries to a database tracking work assignments, large project involved a major overhaul of another team's API. Also enabled new access patterns for our own team's datacenter mapping APIs (new API calls).
+Familiarity with the Nix package manager and its ecosystem.
+- No experience with Nix but worked frequently with Amazon Linux 2, environment variables, and Anaconda package manager.
+Experience working in a fast-paced startup environment.
+- None but eager to learn.
+Expertise in networking and security protocols.
+- Some academic experience but eager to learn more.
+Background implementing and maintaining kubernetes.
+- Worked with ECS and instantiated new AWS hosts regularly.
+Background as a full-stack engineer.
+- Backend engineer work at AWS involved some frontend-adjacent projects (creating new work assignments, overhauling GraphQL API).
+
+
+AI:
+
+What draws me to Cobalt AI is your dedication to advancing physical security through AI-driven solutions and the opportunity to contribute to significant technological developments. Your vision of scaling from hundreds of robots to thousands of cameras, all while emphasizing data security and SOC2 compliance, resonates strongly with my experience in backend systems and cloud infrastructure.
+
+At AWS, I developed and optimized backend systems, supporting web interfaces and integrating with various platforms, including video management systems. I have experience managing integration efforts with our Optics platform, where I handled video data from datacenter cameras. Additionally, my work involved deploying updates on airgapped hosts within govcloud environments, which directly aligns with Cobalt's focus on scaling edge devices while maintaining robust security protocols.
+
+I'm particularly excited by the challenge of scaling backend systems 100x, as I've previously contributed to backend code that scaled infrastructure and systems to support expanding operations. My experience also extends to security-focused cloud infrastructure design, including managing least privilege access using AWS Secret Manager and IAM roles. Implementing infrastructure-as-code solutions through AWS CDK has been an integral part of my work, and I look forward to bringing this expertise to Cobalt's AI-enabled edge device deployment.
+
+Furthermore, Cobalt's culture of empathy and focus on work-life balance aligns with my values. I enjoy leading by example in backend development, mentoring teammates, and working in a collaborative environment. I’ve led design reviews and solved interdisciplinary problems, working with applied scientists on challenges in computer vision and machine learning. My passion for innovation, coupled with my backend development expertise in Python, aligns with Cobalt's mission, and I’m eager to help shape the future of security solutions at your company.
+
+Human summary:
+
+At AWS I worked on a team monitoring datacenter footage from hundreds of thousands of cameras around the world and processing petabytes of frames with computer vision ML models.  My role focused on developing and maintaining our infrastructure and hosts, with additional cross-team feature development in datacenter mapping automation. I had the opportunity to work with our distributed video processing system and databases and services running on AWS. Our applied scientists used generative AI to create images of datacenter workers lying in various positions down the aisle and I am eager to apply genAI to suitable problems.
+
+My experience also extends to security-focused cloud infrastructure design, including managing least privilege access using AWS Secret Manager and IAM roles. Implementing infrastructure-as-code solutions through AWS CDK has been an integral part of my work. I am looking forward to learning more about networking and security from my peers in an evolving startup environment. Mentorship and collaborative design review are two of the best parts of the job. We all perform better when we raise each other up.

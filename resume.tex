@@ -62,13 +62,17 @@
 {\em Software Development Engineer Apprentice} \hfill {\bf June 2022 - April 2024} \\
 % 06/27/2022 to 04/18/2024
 \begin{list2}
+% 1: stakeholders, localization to specific sites / site accounts, etc.
+% 3: dashboards? bugs? what kind of bugs? 5: what dashboards? What are these useful for?
+%1
 \item Developed feature to automate key security tasks within AWS datacenters worldwide. Key performance indicators included efficiency of contract guard force and site security management in protecting server hosts and locating events potentially exposing customer data. Designed and implemented project using Python, GraphQL, and Java and considered localization requirements and governmental edge cases. Drove work across multiple teams and designed tests and proofs of concept to ensure compliance and efficacy.
-% stakeholders, localization to specific sites / site accounts, etc.
+%2
 \item Maintained computer vision and machine learning systems processing petabytes of HTTP Live Streaming (HLS) video frames in real time and training and evaluating model performance against ground truth data. Wrote scripts to locate cameras and sites for specific regions.
-% dashboards? bugs? what kind of bugs?
+%3
 \item Identified and resolved database query issues in legacy code with new SQL queries to Amazon Redshift databases.
+%4
 \item Built CloudWatch metrics, dashboards, and alarms to parse logs and monitor automated \\ Distributed Job Scheduler (DJS) jobs and AWS Lambda health and performance.
-% What dashboards? What are these useful for?
+%5
 \item Created and monitored CI/CD pipelines, AWS accounts, and Apollo environments for daily team deployments, host patching, permissions management, and code reusability.
 \end{list2}
 % Spinning up hosts to execute code, creating accounts 
@@ -82,15 +86,16 @@
 %
 \section{\sc Education}
 
-{\bf University of Washington}, Seattle, Washington USA\\ %\hfill GPA: {\bf 3.93}
-{\em Paul G. Allen School of Computer Science \& Engineering} \\
+{\bf University of Washington} \hfill B.S., Computer Engineering, December 2021 \\
+% GPA: {\bf 3.93}
+Seattle, Washington USA \hfill {\em Paul G. Allen School of Computer Science \& Engineering} \\
 %\vspace*{-.3cm}
 % \vspace*{.1cm}
-\begin{list1}
-\item[] B.S., Computer Engineering, December 2021
-\item[] Relevant Courses: Networks, Systems, Digital Design, Compilers, Data Structures and Parallelism
-% \item[] Selected Courses: Networking, Systems, Data Structures and Parallelism, Compilers
-\end{list1}
+% \begin{list1}
+% \item[] B.S., Computer Engineering, December 2021
+% % \item[] Relevant Courses: Networks, Systems, Digital Design, Compilers, Data Structures and Parallelism
+% % \item[] Selected Courses: Networking, Systems, Data Structures and Parallelism, Compilers
+% \end{list1}
 
 % {\bf Seattle Central College}, Seattle, Washington USA %\hfill GPA: {\bf 3.93}
 % \\
@@ -103,36 +108,33 @@
 
 % \vspace{-.2cm}
 \section{\sc Technical Skills} 
-	{\em Languages}:  
-	Python, Java, Javascript, C/C++, Bash, HDL, SystemVerilog, Verilog, SQL, JSON, assembly
-	\\
-	{\em Tools}:  
-	Quartus, ModelSim, GDB, Vim, Git/GitLab, IDEA, KiCad, \LaTeX, Mathematica 
-	\\
-	{\em Algorithm projects}: 
-	Spam filter using machine learning (Naive Bayes), KD-tree
-	nearest neighbor finder, content-aware image resizing with A* graph search
-	\\
-	{\em Operating Systems}:  
-	Unix/Linux (AL2, WSL), Windows
-	\\
-	{\em Hardware}:  PCB design, 3D printing, flashing of Arduino/STM32 chips, SMD soldering
-	\\
-	{\em Frameworks}:  AWS: Lambda, API Gateway, Secrets Manager, GraphQL, S3, DynamoDB, Athena, Code Pipelines
-	\\
+    {\em Programming Languages}:  
+    Python, Java, JavaScript, C/C++, Bash, HDL (SystemVerilog, Verilog), SQL, JSON, Assembly
+    \\
+    {\em Development Tools}:  
+    GDB, Vim, Git/GitLab, IntelliJ IDEA, KiCad, LATEX, Mathematica
+    \\
+    {\em Operating Systems}:  
+    Windows, Unix/Linux (Amazon Linux 2, Windows Subsystem Linux)
+    \\
+    {\em Hardware \& Electronics}:  
+    PCB design, 3D printing, Arduino/STM32 flashing, SMD soldering
+    \\
+    {\em Cloud \& DevOps (AWS)}:  
+    Lambda, API Gateway, Secrets Manager, GraphQL, S3, DynamoDB, Athena, Code Pipelines
 
-\section{\sc Programming Projects}
+\section{\sc Hardware and Software Projects}
 
 {\bf GuitXR: \url{https://uwrealitylab.github.io/xrcapstone21sp-team4/}} %, CSE 481 V
 \begin{list2}
 \item AR guitar learning application for the Magic Leap headset with floating chords and tabs, instrument-mounted controls, and real-time pitch detection
 \item Built in Javascript and HTML via the WebXR API and A-Frame web framework
-\item Refactored ML5.js-based pitch recognition library for guitar 
+\item Refactored ML5.js-based pitch recognition library for guitar
 % to enable real-time feedback on played notes
 \item Presented completed VR capstone demo at the University of Washington Reality Lab
 \end{list2}
 
-{\bf N-Car Parking Garage Simulator}
+{\bf N-Car Parking Garage Simulator (FPGA Test Design Verification)}
 \begin{list2}
 \item Designed and programmed finite state machine (FSM) logic in SystemVerilog for two presence sensors at the gate of a simulated parking garage and an n-bit counter to track available spots
 \item Simulated functionality of hardware devices (LEDs, seven-segment displays, buttons, and switches) in ModelSim before flashing to the Altera DE1{\textunderscore}SoC FPGA board using Quartus
@@ -144,6 +146,13 @@
 % \item Reinforced understanding of composition, inheritance, and model-view-controller (MVC)
 % \item Applied skills in unit testing, version control through Git, and pair programming
 % \end{list2}
+
+\section{\sc Algorithms \& ML Projects}
+		\begin{list2}
+    \item Spam filter using Naive Bayes
+    \item KD-tree nearest neighbor finder
+    \item Content-aware image resizing using A* graph search
+    \end{list2}
 
 \end{resume}
 \end{document}
