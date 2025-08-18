@@ -316,7 +316,7 @@
   % TeX never goes into horizontal mode because of this; it only
   % gets into vertical mode and restricted horizontal mode.  Certain 
   % indenting problems must be handled because of this.  They
-  % are delt with at the end of this routine.
+  % are dealt with at the end of this routine.
   % It is also necessary to close the hbox that was created before
   % the \section and create a new one when this macro has ended.
   % This macro therefore simulates a \kill, so that any text before
