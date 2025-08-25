@@ -17,6 +17,7 @@
 %endfont
 
 \usepackage{hyperref}
+\usepackage{xurl}
 
 \oddsidemargin -.5in
 \evensidemargin -.5in
@@ -32,13 +33,13 @@
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
-      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+      \setlength{\leftmargin}{0.2in}} \raggedright}{\end{list}}
 \newenvironment{list2}{
   \begin{list}{$\bullet$}{%
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
-      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+      \setlength{\leftmargin}{0.2in}} \raggedright}{\end{list}}
 
 
 \begin{document}
@@ -50,20 +51,22 @@
 
 \begin{resume}
 \section{\sc Contact} % Information}
-\vspace{.05in}
-\begin{tabular}{@{}p{0.5in}p{2.5in}p{3in}}
-{\it LinkedIn:} & https://www.linkedin.com/in/maxsutters & {\it E-mail:}  msutters@cs.washington.edu \\   
+% \vspace{.05in}
+% \begin{tabular}{@{}p{0.5in}p{2.78in}}
+{\bf LinkedIn:} \url{https://www.linkedin.com/in/maxsutters}
+{\bf Email:}  msutters@cs.washington.edu 
 % {\it GitHub:} & https://github.com/maximelearning & {\it Phone:} (206) 321-0208 \\
 % & speak{\textunderscore} candidate
-\end{tabular}
+% \end{tabular}
 
 \section{\sc Experience}
 
-{\bf Amazon}, Seattle/Bellevue, Washington USA \\
-{\em Software Development Engineer} \hfill {\bf January 2025 - present} \\
+{\bf Amazon}, Seattle/Bellevue, Washington USA \newline
+{\em Software Development Engineer} \hfill {\bf January 2025 - present} \newline
 
 \begin{list2}
 \item Financial compliance driver and feature lead on a cross-team fullstack Java project using Amazon Lambda, SQS, SNS, and GraphQL backend APIs over AppSync served to a JavaScript/HTML front end. Made Amazon's global promotion management and accounting platform SOX-compliant by designing and implementing mandatory finance and accounting approvals.
+\item Continued backend Java development work on data flows between customer shipping promotions management and accounting systems at Amazon.
 \end{list2}
 
 {\bf Amazon Web Services (AWS)}, Seattle/Bellevue, Washington USA \\
@@ -71,7 +74,7 @@
 % 06/27/2022 to 04/18/2024
 \begin{list2}
 %1
-\item Developed feature to automate key security tasks within AWS datacenters worldwide. Key performance indicators included efficiency of contract guard force and site security management in protecting server hosts and locating events potentially exposing customer data. Designed and implemented project using Python, GraphQL, and Java and considered localization requirements and governmental edge cases. Drove work across multiple teams and designed tests and proofs of concept to ensure compliance and efficacy.
+\item Developed feature to automate key security tasks within AWS datacenters worldwide. Key performance indicators included efficiency of contract guard force and site security management in protecting server hosts and locating events potentially exposing customer data. Designed and implemented project using Python, GraphQL, and Java and considered localization requirements and governmental edge cases. Drove work across two teams and designed tests and proofs of concept to ensure compliance and efficacy ahead of release.
 %2
 \item Maintained computer vision and machine learning systems processing petabytes of HTTP Live Streaming (HLS) video frames in real time and training and evaluating model performance against ground truth data. Automated jobs to locate cameras and sites for specific regions.
 %3
@@ -79,7 +82,7 @@
 %4
 \item Built CloudWatch metrics, dashboards, and alarms to parse logs and monitor automated \\ Distributed Job Scheduler (DJS) jobs and AWS Lambda health and performance.
 %5
-\item Created and monitored CI/CD pipelines, AWS accounts, and Apollo environments for daily team deployments, host patching, permissions management, and code reusability.
+\item Created and monitored CI/CD pipelines, AWS accounts, and Apollo environments for my team's daily code deployments. Facilitated host patching, permissions management, and code reusability.
 \end{list2}
 % Spinning up hosts to execute code, creating accounts 
 
@@ -92,9 +95,11 @@
 %
 \section{\sc Education}
 
-{\bf University of Washington} \hfill B.S., Computer Engineering, December 2021 \\
+% GPA: {\bf 3.3}
+{\bf University of Washington}, Seattle, Washington USA \hfill B.S. in Computer Engineering \\
 % GPA: {\bf 3.93}
-Seattle, Washington USA \hfill {\em Paul G. Allen School of Computer Science \& Engineering} \\
+{\em Paul G. Allen School of Computer Science \& Engineering} \hfill Graduated {\bf December 2021} 
+
 %\vspace*{-.3cm}
 % \vspace*{.1cm}
 % \begin{list1}
@@ -114,20 +119,20 @@ Seattle, Washington USA \hfill {\em Paul G. Allen School of Computer Science \& 
 
 % \vspace{-.2cm}
 \section{\sc Skills} % Technical?
-    {\em Programming Languages}:
-    Python, Java, JavaScript, C, Bash, HDL (SystemVerilog), SQL, JSON, Assembly
-    \\
-    {\em Development Tools}:
-    GDB, Vim, Git/GitLab, IntelliJ IDEA, KiCad, LATEX, Mathematica
-    \\
-    {\em Operating Systems}:
-    Windows, Unix/Linux (Amazon Linux 2, Windows Subsystem Linux)
-    \\
-    {\em Hardware \& Electronics}:
-    PCB design, 3D printing, Arduino/STM32 flashing, SMD soldering
-    \\
-    {\em Cloud \& DevOps (AWS)}:
-    Lambda, API Gateway, Secrets Manager, GraphQL, S3, DynamoDB, Athena, Code Pipelines
+  {\em Programming Languages \& Frameworks}:  
+  Python, Java, JavaScript, C, Bash, SQL, Assembly, HDL (Verilog/SystemVerilog), JSON  
+  \\
+  {\em Developer Tools}:  
+  Git/GitLab, Vim, IntelliJ IDEA, GDB, LATEX, Mathematica, KiCad  
+  \\
+  {\em Cloud \& DevOps (AWS)}:  
+  Lambda, API Gateway, DynamoDB, S3, Athena, Secrets Manager, Code Pipelines, GraphQL  
+  \\
+  {\em Operating Systems}:  
+  Unix/Linux (Amazon Linux 2, Windows Subsystem for Linux), Windows  
+  \\
+  {\em Hardware \& Electronics}:  
+  PCB design, 3D printing, Arduino/STM32 flashing, soldering/reflow
 
 \section{\sc Projects }
 
@@ -140,11 +145,11 @@ Seattle, Washington USA \hfill {\em Paul G. Allen School of Computer Science \& 
 \item Presented completed VR capstone demo at the University of Washington Reality Lab
 \end{list2}
 
-{\bf N-Car Parking Garage Simulator (FPGA Test Design Verification)}
-\begin{list2}
-\item Designed and programmed finite state machine (FSM) logic in SystemVerilog for two presence sensors at the gate of a simulated parking garage and an n-bit counter to track available spots
-\item Simulated functionality of hardware devices (LEDs, seven-segment displays, buttons, and switches) in ModelSim before flashing to the Altera DE1{\textunderscore}SoC FPGA board using Quartus
-\end{list2}
+% {\bf N-Car Parking Garage Simulator (FPGA Test Design Verification)}
+% \begin{list2}
+% \item Designed and programmed finite state machine (FSM) logic in SystemVerilog for two presence sensors at the gate of a simulated parking garage and an n-bit counter to track available spots
+% \item Simulated functionality of hardware devices (LEDs, seven-segment displays, buttons, and switches) in ModelSim before flashing to the Altera DE1{\textunderscore}SoC FPGA board using Quartus
+% \end{list2}
 
 % {\bf Tetris} %, CSC 143 (arcade game remake?)
 % \begin{list2}
